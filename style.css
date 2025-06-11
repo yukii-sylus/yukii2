@@ -258,3 +258,27 @@ footer{
   bottom: 0;
   
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* 防止横向滚动 */
+}
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+body {
+  background-image: url("yukii.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
